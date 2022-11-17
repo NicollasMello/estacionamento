@@ -19,6 +19,10 @@
 -- Table structure for table `cliente`
 --
 
+CREATE SCHEMA estacionamento;
+
+USE estacionamento;
+
 DROP TABLE IF EXISTS `cliente`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
