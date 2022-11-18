@@ -27,8 +27,9 @@ public class Menu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setFont(new Font("Arial", 0, 11)); // NOI18N
+       jButton1.setFont(new Font("Arial", 0, 11)); // NOI18N
         jButton1.setText("Veiculos");
+        jButton1.setEnabled(false);;
         jButton1.setMaximumSize(new Dimension(900, 900));
         jButton1.setMinimumSize(new Dimension(100, 200));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -39,6 +40,7 @@ public class Menu extends javax.swing.JFrame {
 
         jButton3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton3.setText("Controle de Estacionamento");
+        jButton3.setEnabled(false);;
         jButton3.setMaximumSize(new java.awt.Dimension(900, 900));
         jButton3.setMinimumSize(new java.awt.Dimension(100, 200));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -52,6 +54,7 @@ public class Menu extends javax.swing.JFrame {
 
         jButton9.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         jButton9.setText("Vagas");
+        jButton9.setEnabled(false);;
         jButton9.setMaximumSize(new java.awt.Dimension(900, 900));
         jButton9.setMinimumSize(new java.awt.Dimension(100, 200));
         jButton9.addActionListener(new java.awt.event.ActionListener() {
